@@ -1,4 +1,7 @@
-this code is made based on tutorial on [YouTube Tutorial](https://www.youtube.com/watch?v=f2EqECiTBL8). 
+number 1 answer is in index.html
+view result at http://localhost:3500/
+
+number 2 : this code is made based on tutorial on [YouTube Tutorial](https://www.youtube.com/watch?v=f2EqECiTBL8). 
 
 usr admin
 user: test2

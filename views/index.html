@@ -10,9 +10,21 @@
 </head>
 
 <body>
-    <h1>Indexs</h1>
-    <label id="jsdata">ini di atas script</label>
+    <h1>Ans number 1:</h1>
+    <p id="jsdata"> <br></p>
+    <script >
+        var txt = '';
+        for (let i = 1; i <= 5; i++) {
+            let row = '';
+            for (let j = 1; j <= 5; j++) {
+                row += (i * j) + ' ';
+            }
+            console.log(row.trim());
+            txt = row.trim();
+            document.getElementById('jsdata').innerHTML  += txt + "<br>";
+        }
 
+    </script>
 </body>
 
 </html>
