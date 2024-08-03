@@ -37,7 +37,7 @@ const updateUser = async (req, res) => {
     }
     
     if (req.body?.username) user.username = req.body.username;
-    if (req.body?.password) user.password = bcrypt.hash(req.body?.password, 10);
+    if (req.body?.password) user.password = await bcrypt.hash(req.body?.password, 10);
     if (req.body?.Admin) user.roles.Admin = 9005;//req.body.Admin;
     if (req.body?.Editor) user.roles.Editor = 2024;//req.body.Editor;
     if (req.body?.User) user.roles.User = 1990;//req.body.User;
